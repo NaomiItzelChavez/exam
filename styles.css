@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/*Header*/
+header{
+    height: 100%;
+    padding-top: 3rem;
+}
+ 
+header nav{
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: none;
+}
+ 
+nav .brand-logo{
+    height: 100%;
+}
+nav .brand-logo img{
+    width: 80px;
+}
+header nav ul{
+    height: 100px;
+}
+header ul a{
+    color: gray;
+}
+header ul a:hover{
+    color: #71b100;
+}
+/*accesorios*/
+.header-main-pic{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/swimming-pool-3550352_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+@media (min-width:768px){
+    .iconos-index{
+        display: flex;
+        justify-content: space-between;    
+    }
+}
+
+.icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+.icono img{
+    height: 12rem;
+    width: 16rem;
+}
+.icono h3{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.texto-centrado{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+.cambio-seccion{
+    margin-top: .3rem;
+    margin-bottom: 2rem;
+}
+.productos3{
+    padding-left: 26rem;
+}
+
+/*Header de trajes de baño*/
+.header-main-pic1{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/summer-842140_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.navegacion{
+    display: flex;
+    background-color: #ffffff;
+}
+.navegacion a{
+    color: black;
+    padding-left: 17rem;
+    font-size: 1.5rem;
+}
+/*Header de ofertas*/
+.header-main-pic2{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/pexels-karolina-grabowska-5650042.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
